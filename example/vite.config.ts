@@ -2,11 +2,11 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/CloudMotiv/",
   build: {
     outDir: "dist",
   },
   plugins: [react()],
+  base: "/CloudMotiv/",
   server: {
     port: 3003,
   },
