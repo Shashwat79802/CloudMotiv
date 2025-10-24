@@ -68,7 +68,7 @@ export class Tip extends Component<Props, State> {
                   }
                 }}
               />
-              <div>
+              {/* <div>
                 {["💩", "😱", "😍", "🔥", "😳", "⚠️"].map((_emoji) => (
                   <label key={_emoji}>
                     <input
@@ -83,7 +83,7 @@ export class Tip extends Component<Props, State> {
                     {_emoji}
                   </label>
                 ))}
-              </div>
+              </div> */}
             </div>
             <div>
               <input type="submit" value="Save" />
