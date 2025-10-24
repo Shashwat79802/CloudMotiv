@@ -30,13 +30,16 @@
     "format": "biome format --write",
     "lint": "biome check",
     "clean": "rm -rf dist",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "pdfjs-dist": "4.4.168",
     "react-rnd": "^10.4.11",
     "ts-debounce": "^4.0.0"
@@ -61,5 +64,5 @@
     "vite": "^5.3.3",
     "vite-plugin-dts": "^4.1.1"
   },
-  "homepage": "https://github.com/agentcooper/react-pdf-highlighter#readme"
+  "homepage": "https://Shashwat79802.github.io/CloudMotiv"
 }
