@@ -31,8 +31,8 @@
     "lint": "biome check",
     "clean": "rm -rf dist",
     "prepublishOnly": "npm run build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": " cd example && npm run build",
+    "deploy": "gh-pages -d example/dist"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
